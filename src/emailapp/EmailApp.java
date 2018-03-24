@@ -3,7 +3,9 @@ package emailapp;
 public class EmailApp {
 
 	public static void main(String[] args) {
-		Email em1 = new Email("Pera","Peric");
+		Email email1 = new Email("Pera","Peric");
+		System.out.println(email1.showInfo());
+		
 
 	}
 
